@@ -1,6 +1,11 @@
 {
     "name": "smatric/module-full-path-breadcrumbs",
-    "description": "N/A",
+    "description": "Intercepts original path for breadcrumbs and adds product categories to it, if not added by Magento.",
+    "authors": [{
+        "name": "Mateusz Sobczak",
+        "homepage": "https://github.com/smatric",
+        "role": "Developer"
+    }],
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0",
         "magento/module-store": "100.0.0",
@@ -12,7 +17,7 @@
         "magento/framework": "100.0.0"
     },
     "type": "magento2-module",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
