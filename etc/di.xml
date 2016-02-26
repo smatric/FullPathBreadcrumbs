@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Helper\Data">
+        <plugin name="smatric_full_path_breadcrumbs_plugin" type="Smatric\FullPathBreadcrumbs\Plugin\BreadcrumbsPlugin" sortOrder="100" disabled="false"/>
+    </type>
+</config>
